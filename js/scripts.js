@@ -690,7 +690,7 @@ $(document).ready(function() {
     //                                                            //
     //                                                            //
 
-    $('form.form-email, form.form-newsletter').submit(function(e) {
+    $('form.form-newsletter').submit(function(e) {
 
         // return false so form submits through jQuery rather than reloading page.
         if (e.preventDefault) e.preventDefault();
